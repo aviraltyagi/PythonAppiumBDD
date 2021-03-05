@@ -1,7 +1,7 @@
 from behave import *
 from nose.tools import assert_equal
 import config
-from features.Utility.WaitUtility import *
+from Utility.WaitUtility import *
 
 
 @given("I have clicked number '{number}'")
